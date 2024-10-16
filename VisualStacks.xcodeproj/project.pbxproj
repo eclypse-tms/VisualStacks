@@ -15,6 +15,10 @@
 		B1614C102CBC510400EE3B11 /* Example2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C0F2CBC510400EE3B11 /* Example2View.swift */; };
 		B1614C122CBD5FB300EE3B11 /* Example3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C112CBD5FB300EE3B11 /* Example3View.swift */; };
 		B1614C142CBD60A500EE3B11 /* Alignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C132CBD60A500EE3B11 /* Alignments.swift */; };
+		B1614C182CBD8B1300EE3B11 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C172CBD8B1300EE3B11 /* Color+Extensions.swift */; };
+		B1614C1C2CBD901100EE3B11 /* Example4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C1B2CBD901100EE3B11 /* Example4View.swift */; };
+		B1614C1E2CBE17BD00EE3B11 /* Example5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C1D2CBE17BD00EE3B11 /* Example5View.swift */; };
+		B1614C222CBF66E300EE3B11 /* Polygon in Frameworks */ = {isa = PBXBuildFile; productRef = B1614C212CBF66E300EE3B11 /* Polygon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,9 @@
 		B1614C0F2CBC510400EE3B11 /* Example2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example2View.swift; sourceTree = "<group>"; };
 		B1614C112CBD5FB300EE3B11 /* Example3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example3View.swift; sourceTree = "<group>"; };
 		B1614C132CBD60A500EE3B11 /* Alignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alignments.swift; sourceTree = "<group>"; };
+		B1614C172CBD8B1300EE3B11 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		B1614C1B2CBD901100EE3B11 /* Example4View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example4View.swift; sourceTree = "<group>"; };
+		B1614C1D2CBE17BD00EE3B11 /* Example5View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example5View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1614C222CBF66E300EE3B11 /* Polygon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,10 @@
 		B1614BFD2CBC449200EE3B11 /* VisualStacks */ = {
 			isa = PBXGroup;
 			children = (
-				B1614C132CBD60A500EE3B11 /* Alignments.swift */,
+				B1614C1A2CBD8B7300EE3B11 /* examples */,
+				B1614C192CBD8B6300EE3B11 /* utils */,
 				B1614BFE2CBC449200EE3B11 /* VisualStacksApp.swift */,
 				B1614C002CBC449200EE3B11 /* ContentView.swift */,
-				B1614C0D2CBC47A400EE3B11 /* Example1View.swift */,
-				B1614C0F2CBC510400EE3B11 /* Example2View.swift */,
-				B1614C112CBD5FB300EE3B11 /* Example3View.swift */,
 				B1614C022CBC449300EE3B11 /* Assets.xcassets */,
 				B1614C042CBC449300EE3B11 /* VisualStacks.entitlements */,
 				B1614C052CBC449300EE3B11 /* Preview Content */,
@@ -79,6 +85,27 @@
 				B1614C062CBC449300EE3B11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1614C192CBD8B6300EE3B11 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				B1614C132CBD60A500EE3B11 /* Alignments.swift */,
+				B1614C172CBD8B1300EE3B11 /* Color+Extensions.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		B1614C1A2CBD8B7300EE3B11 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				B1614C0D2CBC47A400EE3B11 /* Example1View.swift */,
+				B1614C0F2CBC510400EE3B11 /* Example2View.swift */,
+				B1614C112CBD5FB300EE3B11 /* Example3View.swift */,
+				B1614C1B2CBD901100EE3B11 /* Example4View.swift */,
+				B1614C1D2CBE17BD00EE3B11 /* Example5View.swift */,
+			);
+			path = examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +124,9 @@
 			dependencies = (
 			);
 			name = VisualStacks;
+			packageProductDependencies = (
+				B1614C212CBF66E300EE3B11 /* Polygon */,
+			);
 			productName = VisualStacks;
 			productReference = B1614BFB2CBC449200EE3B11 /* VisualStacks.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +155,9 @@
 				Base,
 			);
 			mainGroup = B1614BF22CBC449200EE3B11;
+			packageReferences = (
+				B1614C202CBF66E300EE3B11 /* XCRemoteSwiftPackageReference "Polygon" */,
+			);
 			productRefGroup = B1614BFC2CBC449200EE3B11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -151,8 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1614C1E2CBE17BD00EE3B11 /* Example5View.swift in Sources */,
+				B1614C1C2CBD901100EE3B11 /* Example4View.swift in Sources */,
 				B1614C012CBC449200EE3B11 /* ContentView.swift in Sources */,
 				B1614C0E2CBC47A400EE3B11 /* Example1View.swift in Sources */,
+				B1614C182CBD8B1300EE3B11 /* Color+Extensions.swift in Sources */,
 				B1614C122CBD5FB300EE3B11 /* Example3View.swift in Sources */,
 				B1614C102CBC510400EE3B11 /* Example2View.swift in Sources */,
 				B1614BFF2CBC449200EE3B11 /* VisualStacksApp.swift in Sources */,
@@ -379,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1614C202CBF66E300EE3B11 /* XCRemoteSwiftPackageReference "Polygon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eclypse-tms/Polygon";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1614C212CBF66E300EE3B11 /* Polygon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1614C202CBF66E300EE3B11 /* XCRemoteSwiftPackageReference "Polygon" */;
+			productName = Polygon;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B1614BF32CBC449200EE3B11 /* Project object */;
 }

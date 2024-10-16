@@ -23,7 +23,6 @@ struct Example2View: View {
                     .frame(width: 48, height: 48)
                     .foregroundStyle(.tint)
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit,\nsed do eiusmod tempor incididunt ut labore et dolore\nmagna aliqua.")
-                    .foregroundStyle(Color.black)
                     .multilineTextAlignment(.center)
                 HStack {
                     Circle()
@@ -75,7 +74,6 @@ struct Example2View: View {
                     HStack {
                         Toggle(isOn: $alsoAlignFrame, label: {
                             Text("Also align frame")
-                                .foregroundStyle(Color.black)
                         }).onChange(of: alsoAlignFrame, perform: { value in
                             if verticalAlignment == .top || verticalAlignment == .bottom {
                                 selectedGrid = 20 + horizontalAlignment.rawValue

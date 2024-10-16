@@ -27,7 +27,6 @@ struct Example3View: View {
                         .frame(width: 48, height: 48)
                         .foregroundStyle(.tint)
                     Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit,\nsed do eiusmod tempor incididunt ut labore et dolore\nmagna aliqua.")
-                        .foregroundStyle(Color.black)
                         .multilineTextAlignment(.center)
                     HStack {
                         Circle()

@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            VStack {
+            VStack(spacing: 16) {
                 HStack(alignment: .center, content: {
                     Text("Demonstrates how to cover the entire screen")
                     NavigationLink(destination: {
@@ -35,7 +35,22 @@ struct ContentView: View {
                         Text("Go")
                     })
                 })
-                Spacer()
+                HStack(alignment: .center, content: {
+                    Text("Demonstrates ZStack alignment")
+                    NavigationLink(destination: {
+                        Example4View()
+                    }, label: {
+                        Text("Go")
+                    })
+                })
+                HStack(alignment: .center, content: {
+                    Text("Demonstrates HStack alignment")
+                    NavigationLink(destination: {
+                        Example5View()
+                    }, label: {
+                        Text("Go")
+                    })
+                })
             }
             .padding()
         }

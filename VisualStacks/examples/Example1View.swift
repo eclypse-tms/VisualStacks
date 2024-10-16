@@ -50,7 +50,6 @@ struct Example1View: View {
                     HStack {
                         Toggle(isOn: $coverScreen, label: {
                             Text("Cover entire screen")
-                                .foregroundStyle(Color.black)
                         })
                     }
                     
