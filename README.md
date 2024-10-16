@@ -1,2 +1,4 @@
 # VisualStacks
-Demonstrates how to use stackviews with graphics
+Companion repository for the 
+
+
