@@ -15,10 +15,10 @@
 		B1614C102CBC510400EE3B11 /* Example2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C0F2CBC510400EE3B11 /* Example2View.swift */; };
 		B1614C122CBD5FB300EE3B11 /* Example3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C112CBD5FB300EE3B11 /* Example3View.swift */; };
 		B1614C142CBD60A500EE3B11 /* Alignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C132CBD60A500EE3B11 /* Alignments.swift */; };
-		B1614C182CBD8B1300EE3B11 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C172CBD8B1300EE3B11 /* Color+Extensions.swift */; };
 		B1614C1C2CBD901100EE3B11 /* Example4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C1B2CBD901100EE3B11 /* Example4View.swift */; };
 		B1614C1E2CBE17BD00EE3B11 /* Example5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C1D2CBE17BD00EE3B11 /* Example5View.swift */; };
 		B1614C222CBF66E300EE3B11 /* Polygon in Frameworks */ = {isa = PBXBuildFile; productRef = B1614C212CBF66E300EE3B11 /* Polygon */; };
+		B1614C242CBFFF0A00EE3B11 /* Example6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C232CBFFF0A00EE3B11 /* Example6View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +32,9 @@
 		B1614C0F2CBC510400EE3B11 /* Example2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example2View.swift; sourceTree = "<group>"; };
 		B1614C112CBD5FB300EE3B11 /* Example3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example3View.swift; sourceTree = "<group>"; };
 		B1614C132CBD60A500EE3B11 /* Alignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alignments.swift; sourceTree = "<group>"; };
-		B1614C172CBD8B1300EE3B11 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		B1614C1B2CBD901100EE3B11 /* Example4View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example4View.swift; sourceTree = "<group>"; };
 		B1614C1D2CBE17BD00EE3B11 /* Example5View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example5View.swift; sourceTree = "<group>"; };
+		B1614C232CBFFF0A00EE3B11 /* Example6View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example6View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				B1614C132CBD60A500EE3B11 /* Alignments.swift */,
-				B1614C172CBD8B1300EE3B11 /* Color+Extensions.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -104,6 +103,7 @@
 				B1614C112CBD5FB300EE3B11 /* Example3View.swift */,
 				B1614C1B2CBD901100EE3B11 /* Example4View.swift */,
 				B1614C1D2CBE17BD00EE3B11 /* Example5View.swift */,
+				B1614C232CBFFF0A00EE3B11 /* Example6View.swift */,
 			);
 			path = examples;
 			sourceTree = "<group>";
@@ -184,11 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1614C242CBFFF0A00EE3B11 /* Example6View.swift in Sources */,
 				B1614C1E2CBE17BD00EE3B11 /* Example5View.swift in Sources */,
 				B1614C1C2CBD901100EE3B11 /* Example4View.swift in Sources */,
 				B1614C012CBC449200EE3B11 /* ContentView.swift in Sources */,
 				B1614C0E2CBC47A400EE3B11 /* Example1View.swift in Sources */,
-				B1614C182CBD8B1300EE3B11 /* Color+Extensions.swift in Sources */,
 				B1614C122CBD5FB300EE3B11 /* Example3View.swift in Sources */,
 				B1614C102CBC510400EE3B11 /* Example2View.swift in Sources */,
 				B1614BFF2CBC449200EE3B11 /* VisualStacksApp.swift in Sources */,

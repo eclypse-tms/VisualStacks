@@ -51,6 +51,15 @@ struct ContentView: View {
                         Text("Go")
                     })
                 })
+                
+                HStack(alignment: .center, content: {
+                    Text("Demonstrates how to embed a VStack in a ScrollView")
+                    NavigationLink(destination: {
+                        Example6View()
+                    }, label: {
+                        Text("Go")
+                    })
+                })
             }
             .padding()
         }
