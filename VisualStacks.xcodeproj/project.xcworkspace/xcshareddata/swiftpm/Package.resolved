@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "polygon",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eclypse-tms/Polygon",
+      "state" : {
+        "revision" : "dca20a08d586b396a114d01b2da1836b7afc5a36",
+        "version" : "4.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
