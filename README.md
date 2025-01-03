@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150" height="150" src="./assets/visual-stack-app-icon.svg">
+  <img width="150" height="150" src="./assets/visual-stacks-app-icon.svg">
 </p>
 
 <p align="center">
