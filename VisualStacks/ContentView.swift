@@ -35,6 +35,16 @@ struct ContentView: View {
                         Text("Go")
                     })
                 })
+                
+                HStack(alignment: .center, content: {
+                    Text("Demonstrates how ZStack overlays its subviews")
+                    NavigationLink(destination: {
+                        Example7View()
+                    }, label: {
+                        Text("Go")
+                    })
+                })
+                
                 HStack(alignment: .center, content: {
                     Text("Demonstrates ZStack alignment")
                     NavigationLink(destination: {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B15811032CE1B5660017E0B0 /* Example7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15811022CE1B5660017E0B0 /* Example7View.swift */; };
 		B1614BFF2CBC449200EE3B11 /* VisualStacksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614BFE2CBC449200EE3B11 /* VisualStacksApp.swift */; };
 		B1614C012CBC449200EE3B11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1614C002CBC449200EE3B11 /* ContentView.swift */; };
 		B1614C032CBC449300EE3B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1614C022CBC449300EE3B11 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B15811022CE1B5660017E0B0 /* Example7View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example7View.swift; sourceTree = "<group>"; };
 		B1614BFB2CBC449200EE3B11 /* VisualStacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualStacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1614BFE2CBC449200EE3B11 /* VisualStacksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualStacksApp.swift; sourceTree = "<group>"; };
 		B1614C002CBC449200EE3B11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				B1614C1B2CBD901100EE3B11 /* Example4View.swift */,
 				B1614C1D2CBE17BD00EE3B11 /* Example5View.swift */,
 				B1614C232CBFFF0A00EE3B11 /* Example6View.swift */,
+				B15811022CE1B5660017E0B0 /* Example7View.swift */,
 			);
 			path = examples;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1614C242CBFFF0A00EE3B11 /* Example6View.swift in Sources */,
+				B15811032CE1B5660017E0B0 /* Example7View.swift in Sources */,
 				B1614C1E2CBE17BD00EE3B11 /* Example5View.swift in Sources */,
 				B1614C1C2CBD901100EE3B11 /* Example4View.swift in Sources */,
 				B1614C012CBC449200EE3B11 /* ContentView.swift in Sources */,
